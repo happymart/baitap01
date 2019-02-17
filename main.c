@@ -23,7 +23,16 @@ int main(int argc, char** argv) {
     printf("Enter integer: ");
     scanf("%d",&n);
     if(n>0){
-        printf("Positive number ");
+        printf("Positive ");
+    }else if(n<0){
+        printf("Negative ");
+    }else{
+        printf("Zero ");
+    }
+    if(n%2==0){
+        printf("even number");
+    }else{
+        printf("odd number");
     }
     return (EXIT_SUCCESS);
 }
