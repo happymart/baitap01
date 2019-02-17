@@ -18,7 +18,13 @@
  * 
  */
 int main(int argc, char** argv) {
-
+    int n;
+    printf("Welcome \n");
+    printf("Enter integer: ");
+    scanf("%d",&n);
+    if(n>0){
+        printf("Positive number ");
+    }
     return (EXIT_SUCCESS);
 }
 
